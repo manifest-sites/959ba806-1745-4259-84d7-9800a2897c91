@@ -1,0 +1,51 @@
+{
+  "name": "Butterfly",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the butterfly record"
+    },
+    "species": {
+      "type": "string",
+      "description": "Scientific name of the butterfly species"
+    },
+    "commonName": {
+      "type": "string",
+      "description": "Common name of the butterfly"
+    },
+    "wingspan": {
+      "type": "string",
+      "description": "Wingspan measurement range"
+    },
+    "habitat": {
+      "type": "string",
+      "description": "Natural habitat of the butterfly"
+    },
+    "color": {
+      "type": "string",
+      "description": "Primary colors of the butterfly"
+    },
+    "region": {
+      "type": "string",
+      "description": "Geographic region where found"
+    },
+    "isSpotted": {
+      "type": "boolean",
+      "description": "Whether the user has spotted this butterfly"
+    },
+    "spottedDate": {
+      "type": "string",
+      "description": "Date when the butterfly was spotted"
+    },
+    "notes": {
+      "type": "string",
+      "description": "User notes about the butterfly sighting"
+    }
+  },
+  "required": [
+    "species",
+    "commonName",
+    "isSpotted"
+  ]
+}
